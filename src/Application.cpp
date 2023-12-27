@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include "core/FluidGrid.h"
 
 int main()
 {
@@ -20,10 +21,16 @@ int main()
     //     window.display();
     // }
 
-    bool running = true;
-    while (running)
-    {
+    size_t width = 450;
+    size_t height = 300;
 
+    FluidGrid fluidGrid(width, height);
+
+    while (true)
+    {
+        // Modify velocity values (e.g. add gravity)
+            // Make the fluid incompressible (projection)
+            // Move the velocity filed (advection)
     }
 
     return 0;
