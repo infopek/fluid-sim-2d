@@ -18,6 +18,7 @@ include_directories(
 set(SOURCES
     src/core/FluidGrid.cpp
     src/core/Solver.cpp
+    src/core/Simulator.cpp
     src/visualization/Renderer.cpp
     src/user-interaction/InputManager.cpp
     src/Application.cpp
